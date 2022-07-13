@@ -28,8 +28,4 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    - name: Grant x perms for gradewBuild with Gradle
-      run: chmod +x gradlew
-      
-    - name: Build with Gradle
-      run: ./gradelw build
+    
